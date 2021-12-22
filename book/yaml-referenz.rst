@@ -339,7 +339,7 @@ Im Allgemeinen können zu einem Skript mehrere Zeilen angegeben werden:
         - $offen==1? P(willkommen)
         - $offen==0? P(finde_den_schluessel)
 
-Tippst du nun Code 2000 an, wird die erste Zeile ausgeführt, deren Bedingungen alle erfüllt sind (mehr zum Programmieren mit Bedingungen im :ref:`Abschnitt zu Bedingungsbefehle <conditionals>`\ ).
+Tippst du nun Code 2000 an, wird die erste **und nur die erste** Zeile ausgeführt, deren Bedingungen alle erfüllt sind (mehr zum Programmieren mit Bedingungen im :ref:`Abschnitt zu Bedingungsbefehle <conditionals>`\ ).
 
 Statt die OID-Codes numerisch anzugeben, kannst du auch sprechende Namen verwenden, siehe Abschnitt „:ref:`code-namen`\ “.
 
@@ -527,8 +527,8 @@ Beispiel:
 Effekt:
    Bedingungsbefehle müssen stets am Anfang der Zeile stehen. Es wird der Wert
    des ersten Arguments entsprechend dem Vergleichsoperator mit dem zweiten
-   Argument verglichen. Wenn alle Bedingungsbefehle einer Zeile zutreffen, dann
-   wird die Zeile ausgeführt, sonst wird die nächste Zeile des Skriptes
+   Argument verglichen. Wenn **alle** Bedingungsbefehle einer Zeile zutreffen, dann
+   wird die Zeile (und nur diese Zeile) ausgeführt, sonst wird die nächste Zeile des Skriptes
    geprüft.
 
    Die Operatoren sind:
